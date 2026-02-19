@@ -1,0 +1,3 @@
+class CommonKeys {
+  CommonKeys._();
+}

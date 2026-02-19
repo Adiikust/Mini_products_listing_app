@@ -1,0 +1,115 @@
+class DimensionsResource {
+  DimensionsResource._();
+
+  /// Fonts
+  static const fontSize_8 = 8.0;
+  static const fontSize_10 = 10.0;
+  static const fontSize_11 = 11.0;
+  static const fontSize_12 = 12.0;
+  static const fontSize_14 = 14.0;
+  static const fontSize_16 = 16.0;
+  static const fontSize_18 = 18.0;
+  static const fontSize_20 = 20.0;
+  static const fontSize_22 = 22.0;
+  static const fontSize_24 = 24.0;
+  static const fontSize_26 = 26.0;
+  static const fontSize_28 = 28.0;
+  static const fontSize_30 = 30.0;
+  static const fontSize_32 = 32.0;
+  static const fontSize_34 = 34.0;
+
+  /// Padding
+  static const paddingSizeExtraSmall = 5.0;
+  static const paddingSizeSmall = 10.0;
+  static const paddingSizeDefault = 15.0;
+  static const paddingSizeLarge = 20.0;
+  static const paddingSizeExtraLarge = 25.0;
+
+  /// Radius
+  static const radiusSmall = 8.0;
+  static const radiusDefault = 10.0;
+  static const radiusLarge = 15.0;
+  static const radiusExtraLarge = 20.0;
+
+  /// Dimensions
+  static const d_0 = 0.0;
+  static const d_1 = 1.0;
+  static const d_2 = 2.0;
+  static const d_3 = 3.0;
+  static const d_4 = 4.0;
+  static const d_5 = 5.0;
+  static const d_6 = 6.0;
+  static const d_7 = 7.0;
+  static const d_8 = 8.0;
+  static const d_9 = 9.0;
+  static const d_10 = 10.0;
+  static const d_11 = 11.0;
+  static const d_12 = 12.0;
+  static const d_13 = 13.0;
+  static const d_14 = 14.0;
+  static const d_15 = 15.0;
+  static const d_16 = 16.0;
+  static const d_17 = 17.0;
+  static const d_18 = 18.0;
+  static const d_19 = 19.0;
+  static const d_20 = 20.0;
+  static const d_21 = 21.0;
+  static const d_24 = 24.0;
+  static const d_25 = 25.0;
+  static const d_28 = 28.0;
+  static const d_30 = 30.0;
+  static const d_32 = 32.0;
+  static const d_35 = 35.0;
+  static const d_37 = 37.0;
+  static const d_40 = 40.0;
+  static const d_42 = 42.0;
+  static const d_44 = 44.0;
+  static const d_45 = 45.0;
+  static const d_48 = 48.0;
+  static const d_50 = 50.0;
+  static const d_51 = 51.0;
+  static const d_52 = 52.0;
+  static const d_53 = 53.0;
+  static const d_54 = 54.0;
+  static const d_55 = 55.0;
+  static const d_56 = 56.0;
+  static const d_60 = 60.0;
+  static const d_64 = 64.0;
+  static const d_65 = 65.0;
+  static const d_66 = 66.0;
+  static const d_68 = 68.0;
+  static const d_70 = 70.0;
+  static const d_75 = 75.0;
+  static const d_80 = 80.0;
+  static const d_90 = 90.0;
+  static const d_96 = 96.0;
+  static const d_95 = 95.0;
+  static const d_100 = 100.0;
+  static const d_103 = 103.0;
+  static const d_105 = 105.0;
+  static const d_107 = 107.0;
+  static const d_108 = 108.0;
+  static const d_110 = 110.0;
+  static const d_112 = 112.0;
+  static const d_115 = 115.0;
+  static const d_117 = 117.0;
+  static const d_120 = 120.0;
+  static const d_130 = 130.0;
+  static const d_140 = 140.0;
+  static const d_150 = 150.0;
+  static const d_160 = 160.0;
+  static const d_170 = 170.0;
+  static const d_200 = 200.0;
+  static const d_230 = 230.0;
+  static const d_240 = 240.0;
+  static const d_256 = 256.0;
+  static const d_270 = 270.0;
+  static const d_290 = 290.0;
+  static const d_295 = 295.0;
+  static const d_320 = 320.0;
+  static const d_360 = 360.0;
+  static const d_380 = 380.0;
+  static const d_480 = 480.0;
+  static const d_500 = 500.0;
+  static const d_600 = 600.0;
+}
