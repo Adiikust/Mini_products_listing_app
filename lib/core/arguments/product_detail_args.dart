@@ -1,7 +1,7 @@
 import '../constants/exports.dart';
 
 class ProductDetailArgs {
-  final Product product;
+  final ProductEntity product;
 
   ProductDetailArgs({required this.product});
 }

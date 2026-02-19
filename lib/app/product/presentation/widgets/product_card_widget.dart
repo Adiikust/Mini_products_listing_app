@@ -1,7 +1,7 @@
 import '../../../../core/constants/exports.dart';
 
 class ProductCardWidget extends StatelessWidget {
-  final Product product;
+  final ProductEntity product;
   final VoidCallback onTap;
 
   const ProductCardWidget({

@@ -1,7 +1,7 @@
 import '../../../../core/constants/exports.dart';
 
 class CartItemWidget extends StatelessWidget {
-  final Product product;
+  final ProductEntity product;
   final int quantity;
 
   const CartItemWidget({

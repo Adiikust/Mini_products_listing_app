@@ -60,7 +60,7 @@ export 'package:mini_products_listing_app/app/product/presentation/pages/product
 
 ///-- domain
 ///--- entities
-export 'package:mini_products_listing_app/app/product/domain/entities/product.dart';
+export 'package:mini_products_listing_app/app/product/domain/entities/product_entity.dart';
 
 ///-- Utils
 export 'package:mini_products_listing_app/core/utils/injector.dart';

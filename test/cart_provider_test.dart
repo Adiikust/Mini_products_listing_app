@@ -1,10 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mini_products_listing_app/app/product/domain/entities/product.dart';
+import 'package:mini_products_listing_app/app/product/domain/entities/product_entity.dart';
 import 'package:mini_products_listing_app/app/product/presentation/providers/cart_provider.dart';
 
 void main() {
   group('CartProvider', () {
-    final product = const Product(
+    final product = const ProductEntity(
       id: 1,
       title: 'Test Product',
       description: 'Test',

@@ -1,16 +1,14 @@
 import '../../../../core/constants/exports.dart';
 
 class ProductListProvider extends ChangeNotifier {
-  final GetProductsUseCase getProductsUseCase;
-
-  ProductListProvider({required this.getProductsUseCase});
+  final _getProductsUseCase = locator<GetProductsUseCase>();
 
   ProductListStatus _status = ProductListStatus.initial;
-  List<Product> _products = <Product>[];
+  List<ProductEntity> _products = <ProductEntity>[];
   String? _errorMessage;
 
   ProductListStatus get status => _status;
-  List<Product> get products => _products;
+  List<ProductEntity> get products => _products;
   String? get errorMessage => _errorMessage;
 
   Future<void> loadProducts() async {
@@ -19,10 +17,10 @@ class ProductListProvider extends ChangeNotifier {
     notifyListeners();
 
     try {
-      final result = await getProductsUseCase();
+      final result = await _getProductsUseCase();
       if (result.isEmpty) {
         _status = ProductListStatus.empty;
-        _products = <Product>[];
+        _products = <ProductEntity>[];
       } else {
         _status = ProductListStatus.loaded;
         _products = result;

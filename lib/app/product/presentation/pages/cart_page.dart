@@ -61,7 +61,16 @@ class CartPage extends StatelessWidget {
                 ],
               ),
               ElevatedButton(
-                onPressed: items.isEmpty ? null : () {},
+                onPressed: () {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text(
+                        StringsResource.checkoutFunctionalityComingSoon,
+                      ),
+                      duration: Duration(seconds: 2),
+                    ),
+                  );
+                },
                 child: const Text(StringsResource.checkout),
               ),
             ],

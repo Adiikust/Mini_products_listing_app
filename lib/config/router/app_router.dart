@@ -12,9 +12,7 @@ class AppRouter {
         name: RouteNames.productListPage,
         path: '/${RouteNames.productListPage}',
         builder: (_, state) => ChangeNotifierProvider(
-          create: (_) => ProductListProvider(
-            getProductsUseCase: locator<GetProductsUseCase>(),
-          ),
+          create: (_) => ProductListProvider(),
           child: const ProductListPage(),
         ),
       ),

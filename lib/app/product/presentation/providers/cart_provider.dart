@@ -13,7 +13,7 @@ class CartProvider extends ChangeNotifier {
     (prev, element) => prev + element.totalPrice,
   );
 
-  void addToCart(Product product) {
+  void addToCart(ProductEntity product) {
     if (_items.containsKey(product.id)) {
       return;
     }

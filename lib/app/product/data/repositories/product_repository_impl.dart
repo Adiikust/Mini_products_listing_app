@@ -8,17 +8,18 @@ class ProductRepositoryImpl implements ProductRepository {
   ProductRepositoryImpl({required this.remoteDataSource});
 
   @override
-  Future<List<Product>> getProducts() async {
+  Future<List<ProductEntity>> getProducts() async {
     try {
-      final List<ProductModel> models = await remoteDataSource.fetchProducts();
-      return models
+      final List<ProductModel> products = await remoteDataSource
+          .fetchProducts();
+      return products
           .map(
-            (m) => Product(
-              id: m.id,
-              title: m.title,
-              description: m.description,
-              image: m.image,
-              price: m.price,
+            (product) => ProductEntity(
+              id: product.id,
+              title: product.title,
+              description: product.description,
+              image: product.image,
+              price: product.price,
             ),
           )
           .toList();

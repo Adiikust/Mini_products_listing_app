@@ -1,13 +1,13 @@
 import '../../../../core/constants/exports.dart';
 import '../repositories/product_repository.dart';
 
-class GetProductsUseCase implements UseCase<List<Product>, void> {
+class GetProductsUseCase implements UseCase<List<ProductEntity>, void> {
   final ProductRepository repository;
 
   GetProductsUseCase({required this.repository});
 
   @override
-  Future<List<Product>> call({void params}) async {
+  Future<List<ProductEntity>> call({void params}) async {
     try {
       return await repository.getProducts();
     } on Failure {

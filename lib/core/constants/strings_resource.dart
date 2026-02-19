@@ -14,4 +14,6 @@ class StringsResource {
   static const somethingWentWrong = 'Something went wrong';
   static const noProductsFound = 'No products found';
   static const failedToLoadProducts = 'Failed to load products';
+  static const checkoutFunctionalityComingSoon =
+      'Checkout functionality coming soon!';
 }
