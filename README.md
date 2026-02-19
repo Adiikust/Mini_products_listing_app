@@ -141,3 +141,6 @@ basic state management using `ChangeNotifier` and the provider pattern.
   - Cache product results to reduce API calls.
   - Handle offline scenarios gracefully (show cached data or explicit offline state).
 
+## 📱 App Demo
+
+[Watch Demo Video](https://drive.google.com/file/d/1HJJlFRsh-TMtOPbBlnl0uaDRyIurdhoC/view?usp=sharing)
